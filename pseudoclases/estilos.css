@@ -1,0 +1,134 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(216, 237, 240);
+  height: 150vh;
+}
+
+h2{
+  display: inline-block;
+margin: 50px;
+}
+
+  .enlace {
+    display: inline-block;
+    background: steelblue;
+    color:  #fff;
+    text-decoration: none;
+    padding: 15px 75px;
+    border-bottom: 5px solid #19226e;
+    margin: 10px 30px;
+    border-radius: 10px;
+
+}
+.enlace :visited {
+    background: gold;
+}
+
+.enlace:hover{
+    padding: 40px 20px;
+    transition: 0.3s;
+
+}
+
+.enlace:active{
+  background: tomato;
+  color: white; 
+}
+
+.enlace:link {
+    background-color: navajowhite;
+}   
+
+/* primera parte */
+
+.event{
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 20px;
+    background: crimson;
+    color: white;
+    text-decoration: none;
+    padding: 20px;
+    border-radius: 20px;
+
+}
+
+
+.box {
+    margin-top: 20px;
+    margin-left: 20px;
+    width: 100px;
+    height: 100px;
+    background: steelblue;
+    transition: 0.3s;
+
+}
+
+#objetivo:target{
+    border-radius: 50%;
+    margin: 0 auto;
+    transition: 1s;
+} */ */
+
+/* segunda parte */
+
+ .form{
+    width: 80%;
+    margin: 30px auto;
+    background: #f2f2f2;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    padding: 30px;
+}
+
+.form_title{
+    text-align: center;
+    margin-bottom: 20px;
+
+}
+
+input {
+    display: block;
+}
+
+input[type=text],input[type=email] {
+    padding: 12px 5px;
+    width: 100%;
+    margin-bottom: 20px;
+    border: none;
+    outline: none;
+
+}
+
+input[type=checkbox] {
+    display: inline;
+    
+}
+input:focus {
+    color: rgb(250, 250, 250);
+    background-color: rgb(136, 136, 216);
+}
+input::placeholder {
+    color: rgb(241, 239, 243);
+}
+input[type=checkbox]:checked + label {
+    color: steelblue;
+
+} */
+/* tercera parte */
+
+
+h3 {
+    font-size: 2rem;
+    font-weight: normal;
+    font-family: Arial;
+    margin-top: 30px;
+    text-align: center;
+}
+h3:not(.titulo){
+    color: steelblue;
+}

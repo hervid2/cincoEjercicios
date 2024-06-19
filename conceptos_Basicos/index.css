@@ -1,0 +1,30 @@
+body{
+    background-color: aqua;
+}
+header nav ul li:first-child a {
+    color:azure; 
+    background-color:fuchsia;
+    font-size: 25px;
+}
+header nav ul li a {
+    color:blue;
+     background-color:antiquewhite
+}
+header nav ul li:nth-child(3) a {
+    color:red;
+    background-color: blueviolet;
+}
+header nav ul li:last-child a {
+    color:tanbul;
+    background-color: chocolate;
+}
+input[type=password] {
+    background-color: cornflowerblue;
+}
+input[type=text] {
+    background-color: greenyellow   ;
+}
+h2 pre {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: yellow;
+}

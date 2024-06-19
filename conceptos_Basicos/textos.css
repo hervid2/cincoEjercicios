@@ -1,0 +1,39 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.parrafo {
+    font-size: 1.5em;
+    /* font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; */
+    /* color: aliceblue; */
+    text-shadow: 5px -5px 4px rgb(90, 89, 89);
+    
+}
+
+.container1 {
+    background-color: darkcyan;
+    height: 200px;
+}
+
+
+
+.aside {
+    width: 10%;
+    height: 10vh;
+    background-color: crimson;
+    width: 10vw;
+
+}
+.container2 {
+    background-color: rgb(223, 176, 22);
+    height: 90vh;
+    height: calc(90vh - 200px - 30px);
+    width: 90vw;
+    
+}
+
+.footer {
+    height: 30px;
+    background-color: blue;
+}
